@@ -1,0 +1,30 @@
+{
+  "name": "gf88-uhack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 10000",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs-extra": "^5.0.0",
+    "ganache-cli": "^6.0.3",
+    "mocha": "^6.2.0",
+    "next": "^4.1.4",
+    "next-routes": "^1.2.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "solc": "^0.4.19",
+    "truffle-hdwallet-provider": "0.0.3",
+    "web3": "1.0.0-beta.26"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
